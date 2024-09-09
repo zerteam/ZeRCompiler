@@ -81,3 +81,24 @@ ES:
 2.2. No puede incrustar el código del programa ZeRCompiler (zrc) en software pago.
 
 Nos alegra que haya leído este Acuerdo.
+
+FR:
+ATTENTION! Veuillez lire attentivement cet accord de licence avant d'installer ou d'utiliser ZeRCompiler (zrc). En installant, copiant ou utilisant autrement le programme, vous signifiez que vous avez lu, compris et accepté d'être lié par les termes du présent accord. Si vous n'acceptez pas ses conditions, n'installez pas et n'utilisez pas ZeRCompiler (zrc).
+
+1. Licence
+
+1.1. Nous vous accordons le droit d'utiliser et de modifier le programme ZeRCompiler (zrc) pour vos besoins personnels.
+
+1.2. Vous pouvez afficher et modifier le code source du programme ZeRCompiler (zrc).
+
+1.3. Vous êtes autorisé à distribuer une version modifiée de ZeRCompiler (zrc).
+
+1.4. Vous pouvez intégrer du code ZeRCompiler (zrc) dans vos projets.
+
+2. Limites
+
+2.1. Il vous est interdit de vendre ou de louer le programme ZeRCompiler (zrc), même s'il a été modifié par vous.
+
+2.2. Vous ne pouvez pas intégrer le code du programme ZeRCompiler (zrc) dans un logiciel payant.
+
+Nous sommes heureux que vous ayez lu cet accord.
