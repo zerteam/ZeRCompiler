@@ -1,0 +1,21 @@
+/*
+    Copyright (C) ZerProg.
+*/
+void inputT(char *data, unsigned short maxLength)
+{
+    char tempData;    
+    short numChar;
+    while ((tempData=getchar())!='\n'&&numChar<=maxLength)
+    {
+        data[numChar++]=tempData;
+    }
+    data[numChar]='\0';
+}
+
+void inputN(long double *data)
+{
+    char input[100];
+    fgets(input, sizeof(input), stdin);
+    char *endPtr;
+    *data = strtold(input, &endPtr);
+}

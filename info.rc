@@ -1,0 +1,36 @@
+#include <windows.h>
+
+#define VERSION "0.0.0\0"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS VS_FF_DEBUG
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT2_UNKNOWN
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "CompanyName", "ZerTeam\0"
+            VALUE "FileDescription", "this is the official compiler of the Zer language.\0"
+            VALUE "FileVersion", VERSION
+            VALUE "ProductVersion", VERSION
+            VALUE "InternalName", "zrc\0"
+            VALUE "LegalCopyright", "\xA9 2024 ZerTeam. All rights reserved.\0"
+            VALUE "OriginalFilename", "zrc.exe\0"
+            VALUE "ProductName", "ZeRCompiler\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 1200
+    }
+}
