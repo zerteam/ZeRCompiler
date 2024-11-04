@@ -1,8 +1,9 @@
 /*
-    Copyright (C) ZerTeam.
+    Copyright (C) Zer Team.
 */
 #ifndef GET_INFO_FILE
 #define GET_INFO_FILE
+
 #if defined(_WIN32) || defined(_WIN64)
     #define RED_COLOR_TEXT     ""
     #define RESET_COLOR_TEXT   ""
@@ -10,35 +11,37 @@
     #define RED_COLOR_TEXT     "\033[1;31m"
     #define RESET_COLOR_TEXT   "\033[0m"
 #endif
+
+// ПРОЛУЧЕНИЯ ИНФОРМАЦИИ О ФАЙЛЕ
+
 #include <string.h>
 #include <stdio.h>
 #include "working_with_text.h"
 
 typedef char* p_char;
 
-//Получения только пути файла из пути к нему с именем
-char* getPathFile(p_char filePathZr, unsigned short sizeString){
-    static char TempData[191];
-    strcpy(TempData, filePathZr);
-    p_char pSlash = strrchr(TempData, '\\');
+// Получения только пути файла из пути к нему с именем
+int getPathFile(p_char filePathZr, unsigned short sizeString, p_char output){ 
+    strcpy(output, filePathZr);
+    p_char pSlash = strrchr(output, '\\');
     if (pSlash==NULL) 
     {
-        pSlash = strrchr(TempData, '/');
+        pSlash = strrchr(output, '/');
         if (pSlash==NULL) 
         {
-            return "0";
+            output[0] = '\0';
+            return 0;
         }
         *pSlash = '\0';
     }
     else{
         *pSlash = '\0';
     }
-    return TempData;
+    return 0;
 }
 
-//Получения имени файла из пути к нему
-char* getNameFile(p_char filePathZr, unsigned short sizeString){
-    static char nameFile[100];
+// Получения имени файла из пути к нему
+int getNameFile(p_char filePathZr, unsigned short sizeString, p_char output){
     char path[235];
     strcpy(path, filePathZr);
     p_char sawn1 = strrchr(path, '\\');
@@ -48,18 +51,18 @@ char* getNameFile(p_char filePathZr, unsigned short sizeString){
     if (sawn2==NULL)
     {
         printf("%sFile processing error. This is not a .zr file.%s\n", RED_COLOR_TEXT, RESET_COLOR_TEXT);
-        return "-1";
+        return -1;
     }
         *sawn2='\0';
-        strcpy(nameFile, path);
-
+        strcpy(output, path);
+    
     }
     else{
     p_char sawn2 = strrchr(sawn1, '.');
     if (sawn2==NULL)
     {
         printf("%sFile processing error. This is not a .zr file.%s\n", RED_COLOR_TEXT, RESET_COLOR_TEXT);
-        return "-1";
+        return -1;
     }
     
     *sawn2 = '\0';
@@ -68,9 +71,10 @@ char* getNameFile(p_char filePathZr, unsigned short sizeString){
     {
         sawn1[i]=sawn1[i+1];
     }
-    strcpy(nameFile, sawn1);
+    strcpy(output, sawn1);
     }
-    return nameFile;
+
+    return 0;
 }
 
 // Проверка расширения файла

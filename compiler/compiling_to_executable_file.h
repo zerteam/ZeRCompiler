@@ -1,5 +1,5 @@
 /*
-    Copyright (C) ZerTeam.
+    Copyright (C) Zer Team.
 */
 #ifndef COMPILING_TO_EXECUTABLE_FILE
 #define COMPILING_TO_EXECUTABLE_FILE
@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-//Компиляция файла C в исполняемый файл
+// Компиляция файла C в исполняемый файл
 int compilingExecutableFile(char *nameFile, char *PathFileC){
     char commandCompiling[256] = "gcc ";
     commandCompiling[256] = '\0';

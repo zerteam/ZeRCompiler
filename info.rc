@@ -1,6 +1,6 @@
 #include <windows.h>
 
-#define VERSION "0.0.0\0"
+#define VERSION "0.0.1\0"
 
 VS_VERSION_INFO VERSIONINFO
  FILEVERSION 1,0,0,0
@@ -19,12 +19,12 @@ VS_VERSION_INFO VERSIONINFO
     {
         BLOCK "040904b0"
         {
-            VALUE "CompanyName", "ZerTeam\0"
+            VALUE "CompanyName", "Zer Team\0"
             VALUE "FileDescription", "this is the official compiler of the Zer language.\0"
             VALUE "FileVersion", VERSION
             VALUE "ProductVersion", VERSION
             VALUE "InternalName", "zrc\0"
-            VALUE "LegalCopyright", "\xA9 2024 ZerTeam. All rights reserved.\0"
+            VALUE "LegalCopyright", "\xA9 2024 Zer Team. All rights reserved.\0"
             VALUE "OriginalFilename", "zrc.exe\0"
             VALUE "ProductName", "ZeRCompiler\0"
         }

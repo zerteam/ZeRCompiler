@@ -1,5 +1,7 @@
 /*
-    Copyright (C) ZerProg.
+    Copyright (C) Zer Team.
+
+    LICENSE - http://zer-lang.org/LICENSE.html.
 */
 void inputT(char *data, unsigned short maxLength)
 {

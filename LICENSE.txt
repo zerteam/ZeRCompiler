@@ -1,104 +1,104 @@
 EN:
-ATTENTION! Before installing or using the ZeRCompiler (zrc) program, please read this License Agreement carefully. Installation, copying, or any other use of the Program signifies that you have read, understood, and agreed to comply with the terms of this Agreement. If you do not agree with the terms of the Agreement, do not install or use the ZeRCompiler (zrc) program.
+ATTENTION! Before installing or using the ZeRCompiler (ZRC) program, please read this License Agreement carefully. Installation, copying, or any other use of the Program signifies that you have read, understood, and agreed to comply with the terms of this Agreement. If you do not agree with the terms of the Agreement, do not install or use the ZeRCompiler (ZRC) program.
 
 1. License
 
-1.1. We grant you the right to use and modify the ZeRCompiler (zrc) program for personal purposes.
+1.1. We grant you the right to use and modify the ZeRCompiler (ZRC) program for personal purposes.
 
-1.2. You may view and modify the source code of the ZeRCompiler (zrc) program.
+1.2. You may view and modify the source code of the ZeRCompiler (ZRC) program.
 
-1.3. You are allowed to distribute the modified version of the ZeRCompiler (zrc) program.
+1.3. You are allowed to distribute the modified version of the ZeRCompiler (ZRC) program.
 
-1.4. You may incorporate the code from the ZeRCompiler (zrc) program into your own projects.
+1.4. You may incorporate the code from the ZeRCompiler (ZRC) program into your own projects.
 
 2. Restrictions
 
-2.1. You are prohibited from selling or renting the ZeRCompiler (zrc) program, even if it has been modified by you.
+2.1. You are prohibited from selling or renting the ZeRCompiler (ZRC) program, even if it has been modified by you.
 
-2.2. You may not incorporate the code from the ZeRCompiler (zrc) program into paid software.
+2.2. You may not incorporate the code from the ZeRCompiler (ZRC) program into paid software.
 
 We appreciate that you have read this Agreement.
 
 RU:
-ВНИМАНИЕ! Перед установкой или использованием программы ZeRCompiler (zrc) внимательно прочитайте данное Лицензионное соглашение. Установка, копирование или иное использование Программы означает, что вы прочли, поняли и согласились соблюдать условия данного Соглашения. Если вы не согласны с его условиями, не устанавливайте и не используйте программу ZeRCompiler (zrc).
+ВНИМАНИЕ! Перед установкой или использованием программы ZeRCompiler (ZRC) внимательно прочитайте данное Лицензионное соглашение. Установка, копирование или иное использование Программы означает, что вы прочли, поняли и согласились соблюдать условия данного Соглашения. Если вы не согласны с его условиями, не устанавливайте и не используйте программу ZeRCompiler (ZRC).
 
 1. Лицензия
 
-1.1. Мы предоставляем вам право на использование и редактирование программы ZeRCompiler (zrc) для личных нужд.
+1.1. Мы предоставляем вам право на использование и редактирование программы ZeRCompiler (ZRC) для личных нужд.
 
-1.2. Вы можете просматривать и редактировать исходный код программы ZeRCompiler (zrc).
+1.2. Вы можете просматривать и редактировать исходный код программы ZeRCompiler (ZRC).
 
-1.3. Вам разрешается распространять изменённую версию программы ZeRCompiler (zrc).
+1.3. Вам разрешается распространять изменённую версию программы ZeRCompiler (ZRC).
 
-1.4. Вы можете встраивать код программы ZeRCompiler (zrc) в свои проекты.
+1.4. Вы можете встраивать код программы ZeRCompiler (ZRC) в свои проекты.
 
 2. Ограничения
 
-2.1. Вам запрещено продавать или сдавать в аренду программу ZeRCompiler (zrc), даже если она была изменена вами.
+2.1. Вам запрещено продавать или сдавать в аренду программу ZeRCompiler (ZRC), даже если она была изменена вами.
 
-2.2. Вы не можете встраивать код программы ZeRCompiler (zrc) в платное программное обеспечение.
+2.2. Вы не можете встраивать код программы ZeRCompiler (ZRC) в платное программное обеспечение.
 
 Мы рады, что вы прочли данное Соглашение.
 
 HI:
-ध्यान! कृपया ZeRCompiler (zrc) को स्थापित करने या उपयोग करने से पहले इस लाइसेंस अनुबंध को ध्यान से पढ़ें। प्रोग्राम को स्थापित करने, कॉपी करने या अन्यथा उपयोग करके आप दर्शाते हैं कि आपने इस अनुबंध की शर्तों को पढ़, समझ लिया है और इससे बंधे होने के लिए सहमत हैं। यदि आप इसकी शर्तों से सहमत नहीं हैं, तो ZeRCompiler (zrc) इंस्टॉल या उपयोग न करें।
+ध्यान! कृपया ZeRCompiler (ZRC) को स्थापित करने या उपयोग करने से पहले इस लाइसेंस अनुबंध को ध्यान से पढ़ें। प्रोग्राम को स्थापित करने, कॉपी करने या अन्यथा उपयोग करके आप दर्शाते हैं कि आपने इस अनुबंध की शर्तों को पढ़, समझ लिया है और इससे बंधे होने के लिए सहमत हैं। यदि आप इसकी शर्तों से सहमत नहीं हैं, तो ZeRCompiler (ZRC) इंस्टॉल या उपयोग न करें।
 
 1. लाइसेंस
 
-1.1. हम आपको आपकी व्यक्तिगत आवश्यकताओं के लिए ZeRCompiler (zrc) प्रोग्राम का उपयोग करने और संपादित करने का अधिकार देते हैं।
+1.1. हम आपको आपकी व्यक्तिगत आवश्यकताओं के लिए ZeRCompiler (ZRC) प्रोग्राम का उपयोग करने और संपादित करने का अधिकार देते हैं।
 
-1.2. आप ZeRCompiler (zrc) प्रोग्राम के स्रोत कोड को देख और संपादित कर सकते हैं।
+1.2. आप ZeRCompiler (ZRC) प्रोग्राम के स्रोत कोड को देख और संपादित कर सकते हैं।
 
-1.3. आपको ZeRCompiler (zrc) का एक संशोधित संस्करण वितरित करने की अनुमति है।
+1.3. आपको ZeRCompiler (ZRC) का एक संशोधित संस्करण वितरित करने की अनुमति है।
 
-1.4. आप अपने प्रोजेक्ट में ZeRCompiler (zrc) कोड एम्बेड कर सकते हैं।
+1.4. आप अपने प्रोजेक्ट में ZeRCompiler (ZRC) कोड एम्बेड कर सकते हैं।
 
 2. सीमाएँ
 
-2.1. आपको ZeRCompiler (zrc) प्रोग्राम को बेचने या किराए पर लेने से प्रतिबंधित किया गया है, भले ही इसे आपके द्वारा संशोधित किया गया हो।
+2.1. आपको ZeRCompiler (ZRC) प्रोग्राम को बेचने या किराए पर लेने से प्रतिबंधित किया गया है, भले ही इसे आपके द्वारा संशोधित किया गया हो।
 
-2.2. आप सशुल्क सॉफ़्टवेयर में ZeRCompiler (zrc) प्रोग्राम कोड एम्बेड नहीं कर सकते।
+2.2. आप सशुल्क सॉफ़्टवेयर में ZeRCompiler (ZRC) प्रोग्राम कोड एम्बेड नहीं कर सकते।
 
 हमें ख़ुशी है कि आपने यह अनुबंध पढ़ा है।
 
 ES:
-¡ATENCIÓN! Lea atentamente este Acuerdo de licencia antes de instalar o utilizar ZeRCompiler (zrc). Al instalar, copiar o utilizar el Programa, usted indica que ha leído, comprendido y aceptado regirse por los términos de este Acuerdo. Si no está de acuerdo con sus términos, no instale ni utilice ZeRCompiler (zrc).
+¡ATENCIÓN! Lea atentamente este Acuerdo de licencia antes de instalar o utilizar ZeRCompiler (ZRC). Al instalar, copiar o utilizar el Programa, usted indica que ha leído, comprendido y aceptado regirse por los términos de este Acuerdo. Si no está de acuerdo con sus términos, no instale ni utilice ZeRCompiler (ZRC).
 
 1. Licencia
 
-1.1. Le otorgamos el derecho de utilizar y editar el programa ZeRCompiler (zrc) para sus necesidades personales.
+1.1. Le otorgamos el derecho de utilizar y editar el programa ZeRCompiler (ZRC) para sus necesidades personales.
 
-1.2. Puede ver y editar el código fuente del programa ZeRCompiler (zrc).
+1.2. Puede ver y editar el código fuente del programa ZeRCompiler (ZRC).
 
-1.3. Se le permite distribuir una versión modificada de ZeRCompiler (zrc).
+1.3. Se le permite distribuir una versión modificada de ZeRCompiler (ZRC).
 
-1.4. Puede incrustar código ZeRCompiler (zrc) en sus proyectos.
+1.4. Puede incrustar código ZeRCompiler (ZRC) en sus proyectos.
 
 2. Limitaciones
 
-2.1. Tiene prohibido vender o alquilar el programa ZeRCompiler (zrc), incluso si usted lo ha modificado.
+2.1. Tiene prohibido vender o alquilar el programa ZeRCompiler (ZRC), incluso si usted lo ha modificado.
 
-2.2. No puede incrustar el código del programa ZeRCompiler (zrc) en software pago.
+2.2. No puede incrustar el código del programa ZeRCompiler (ZRC) en software pago.
 
 Nos alegra que haya leído este Acuerdo.
 
 FR:
-ATTENTION! Veuillez lire attentivement cet accord de licence avant d'installer ou d'utiliser ZeRCompiler (zrc). En installant, copiant ou utilisant autrement le programme, vous signifiez que vous avez lu, compris et accepté d'être lié par les termes du présent accord. Si vous n'acceptez pas ses conditions, n'installez pas et n'utilisez pas ZeRCompiler (zrc).
+ATTENTION! Veuillez lire attentivement cet accord de licence avant d'installer ou d'utiliser ZeRCompiler (ZRC). En installant, copiant ou utilisant autrement le programme, vous signifiez que vous avez lu, compris et accepté d'être lié par les termes du présent accord. Si vous n'acceptez pas ses conditions, n'installez pas et n'utilisez pas ZeRCompiler (ZRC).
 
 1. Licence
 
-1.1. Nous vous accordons le droit d'utiliser et de modifier le programme ZeRCompiler (zrc) pour vos besoins personnels.
+1.1. Nous vous accordons le droit d'utiliser et de modifier le programme ZeRCompiler (ZRC) pour vos besoins personnels.
 
-1.2. Vous pouvez afficher et modifier le code source du programme ZeRCompiler (zrc).
+1.2. Vous pouvez afficher et modifier le code source du programme ZeRCompiler (ZRC).
 
-1.3. Vous êtes autorisé à distribuer une version modifiée de ZeRCompiler (zrc).
+1.3. Vous êtes autorisé à distribuer une version modifiée de ZeRCompiler (ZRC).
 
-1.4. Vous pouvez intégrer du code ZeRCompiler (zrc) dans vos projets.
+1.4. Vous pouvez intégrer du code ZeRCompiler (ZRC) dans vos projets.
 
 2. Limites
 
-2.1. Il vous est interdit de vendre ou de louer le programme ZeRCompiler (zrc), même s'il a été modifié par vous.
+2.1. Il vous est interdit de vendre ou de louer le programme ZeRCompiler (ZRC), même s'il a été modifié par vous.
 
-2.2. Vous ne pouvez pas intégrer le code du programme ZeRCompiler (zrc) dans un logiciel payant.
+2.2. Vous ne pouvez pas intégrer le code du programme ZeRCompiler (ZRC) dans un logiciel payant.
 
 Nous sommes heureux que vous ayez lu cet accord.

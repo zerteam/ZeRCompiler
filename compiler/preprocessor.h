@@ -1,8 +1,10 @@
 /*
-    Copyright (C) ZerTeam.
+    Copyright (C) Zer Team.
 */
 #ifndef PREPROCESSOR
 #define PREPROCESSOR
+
+// ПРЕПРОЦЕССОР
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,15 +16,16 @@
 #define false 0
 #define true 1
 
+typedef char* p_char;
 
-//Библиотеки
-//Первая это STDIO_H
-//Вторая это STRING_H
-//Третья это STDLIB_H
-//Четвёртая это _INPUT_.ZRC
-//0 это нет, 1 это да
+// Библиотеки
+// Первая это STDIO_H
+// Вторая это STRING_H
+// Третья это STDLIB_H
+// Четвёртая это _INPUT_.ZRC
+// 0 это нет, 1 это да
 
-int preprocessor(char *pathFileC, FILE *fileC, unsigned short *libraries)
+int preprocessor(p_char pathFileC, p_char pathFileP, FILE *fileC, unsigned short *libraries)
 {
     if (libraries[0]==true)
     {
@@ -42,7 +45,7 @@ int preprocessor(char *pathFileC, FILE *fileC, unsigned short *libraries)
         addToFileStart(pathFileC, "void inputN(long double *data);\n");
         FILE *fileInputLib = fopen(INPUT_ZRC_PATH, "r");
         int *numLinesInputLib = (int*)malloc(sizeof(int));
-        char *dataInputLib = (char*)malloc(255);
+        p_char dataInputLib = (p_char)malloc(255);
         if (numLinesInputLib==NULL)
         {
             printf("%sMemory allocation error.%s", RED_COLOR_TEXT, RESET_COLOR_TEXT);
@@ -68,6 +71,29 @@ int preprocessor(char *pathFileC, FILE *fileC, unsigned short *libraries)
         fclose(fileInputLib);
     }
     
+    // Запись кода из файла P
+    FILE *fileP = fopen(pathFileP, "r");
+    if (fileP==NULL)
+    {
+        printf("%sError opening file P for reading.%s", RED_COLOR_TEXT, RESET_COLOR_TEXT);
+        return -1;
+    }
+
+    char *data = (char*)malloc(1000);
+    if (data==NULL)
+    {
+        printf("%sMemory allocation error.%s", RED_COLOR_TEXT, RESET_COLOR_TEXT);
+        return -1;
+    }
+
+    while (fgets(data, 1000, fileP)!=NULL)
+    {
+        addToFile(fileC, data);
+        puts(data);
+    }
+
+    free(data);
+    fclose(fileP);
     return 0;
 }
 

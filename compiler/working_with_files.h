@@ -1,9 +1,8 @@
 /*
-    Copyright (C) ZerTeam.
+    Copyright (C) Zer Team.
 */
 #ifndef WORKING_WITH_FILES
 #define WORKING_WITH_FILES
-#include <stdio.h>
 
 #if defined(_WIN32) || defined(_WIN64)
     #define RED_COLOR_TEXT     ""
@@ -13,6 +12,9 @@
     #define RESET_COLOR_TEXT   "\033[0m"
 #endif
 
+// РАБОТА С ФАЙЛАМИ
+
+#include <stdio.h>
 typedef char* p_char;
 
 // Подсчёт количества строк
@@ -21,7 +23,7 @@ int countingNumberLines(char *pathFile) {
     char letter;
     unsigned int lines = 0;
     if (openFile == NULL) {
-        printf("%sFile not found.%s\n",RED_COLOR_TEXT,RESET_COLOR_TEXT);
+        printf("%sFile not found.%s\n", RED_COLOR_TEXT,RESET_COLOR_TEXT);
         return -1;
     }
 
@@ -38,21 +40,29 @@ int countingNumberLines(char *pathFile) {
     return lines;
 }
 
-//Создания файла C
+// Создания файла C
 int createFile(p_char name){
     FILE *file = fopen(name,"w");
+    if (file==NULL) 
+    {
+        perror("Error creating file:");
+        return -1;
+    }
     fclose(file);
     return 0;
 }
 
-//Дописывания строки в файл
+// Дописывания строки в файл
 int addToFile(FILE *file, p_char content){    
-    if (file==NULL) { printf("%sCompilation error: file not found.%s", RED_COLOR_TEXT, RESET_COLOR_TEXT); return 1; }
+    if (file==NULL) {
+        printf("%sCompilation error: file not found.%s", RED_COLOR_TEXT, RESET_COLOR_TEXT);
+        return 1;
+    }
     fprintf(file, content);
     return 0;
 }
 
-//Дописывания строки в начало файла
+// Дописывания строки в начало файла
 int addToFileStart(p_char filePath, p_char content) {
     FILE *originalFile = fopen(filePath, "r");
     if (!originalFile) {

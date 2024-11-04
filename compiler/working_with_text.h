@@ -1,11 +1,13 @@
 /*
-    Copyright (C) ZerTeam.
+    Copyright (C) Zer Team.
 */
 #ifndef WORKING_WITH_TEXT
 #define WORKING_WITH_TEXT
 
 #include <string.h>
 #include <ctype.h>
+
+// РАБОТА С ТЕКСТОМ
 
 // Обрезание пробелов в начале и в конце текста
 void trim(char *str) {
